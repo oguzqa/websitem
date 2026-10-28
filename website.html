@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web sitesi</title>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1>Web Denemesi</h1><hr>
+    </div>
+    <p>Lütfen kayıt formunu doldurunuz.</p>
+    <form action="gencligehitabe.html" method="get">
+        <table border="10">
+    <tr>
+        <td><strong>Adı:</strong></td>
+        <td><input type="text" name="ad" required></td>
+    </tr>
+    <tr>
+        <td><strong>Soyadı:</strong></td>
+        <td><input type="text" name="soyad" required></td>
+    </tr>
+    <tr>
+        <td><strong>Nerede yaşadığınızı belirtiniz:</strong></td>
+        <td>
+            <select name="sehir" required>
+                <option value="">Seçiniz</option>
+                <option value="74">Bartın</option>
+                <option value="19">Çorum</option>
+                <option value="18">Çankırı</option>
+                <option value="06">Ankara</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Evdeki rolünüzü seçiniz:</strong></td>
+        <td>
+            <input type="radio" name="rol" value="anne" required>Anne<br>
+            <input type="radio" name="rol" value="baba" required>Baba<br>
+            <input type="radio" name="rol" value="kardes" required>Kardeş<br>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Formu doldurduğunuz tarihi giriniz:</strong></td>
+        <td><input type="date" name="tarih" required></td>
+    </tr>
+</table>
+<input type="submit" value="Gönder">
+<input type="reset" value="Temizle">
+
+    </form> 
+
+</body>
+
+</html>
